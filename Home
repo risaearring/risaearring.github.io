@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>Risa Risa</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="trangchu.css" />
+</head>
+<body>
+	<div id="menu">
+		<ul>
+			<li><a href="trangchu.html">Trang chủ</a></li>
+			<li><a href="index.html" target="_black">Phong cách</a></li>
+			<li><a href="thoitrang.html" target="_black">Thời trang</a></li>
+			<li>
+				<a href="khuyentai.html" target="_black">Khuyên tai</a>
+				<ul class="sub-menu">
+					<li><a href="khuyentaicatinh.html">Khuyên tai cá tính</a></li>
+					<li><a href="khuyentaidai.html">Khuyên tai dài</a></li>
+				</ul>
+			</li>
+			<li><a href="lienhe.html" target="_black">Liên hệ</a></li>
+		</ul>
+	</div>
+
+	<div id="photo">
+		<img src="photo/risarisa.png" alt="anh" width="100%" height="100%" />
+	</div>
+</body>
+</html>
