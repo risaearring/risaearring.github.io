@@ -1,0 +1,136 @@
+/*==Style co ban cho website==*/
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif; 
+	font-weight: 300;
+	color: #333;
+	line-height: 1.254;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #3b8bba;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	font-family: Papyrus;
+	font-style: italic;
+	font-weight: bold;
+}
+
+a:hover, a:visited {
+	color: green;
+}
+
+/* img .cangiua {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+} */
+
+
+
+#slogan p {
+	text-align: center;
+}
+
+/* Chia cot website */
+#container {
+	position: relative;
+	left: 0;
+	width: 100%; 
+}
+
+#menu ul {
+	list-style-type: none;
+	background: #FFAAAA;
+	text-align: center;
+}
+
+#menu ul li {
+	/*font-family: Papyrus;*/
+	color: black;
+	display: inline-table;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	position: relative; 
+}
+
+#menu ul li a {
+	color: black;
+	text-decoration: none; 
+	display: block;
+}
+
+#menu ul li a:hover {
+	background: #f1f1f1;
+	color: #333;
+}
+
+#menu ul li > .sub-menu {
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover .sub-menu {
+	display: block;
+}
+
+#menu ul ul li a {
+	width: 200px;
+	height: 40px;
+	text-align: left;
+}
+
+#content {
+	padding: 1em 4em;
+}
+
+#header, .call-to-action {
+	text-align: center;
+}
+
+	/* Header */
+	#header #slogan {
+		color: #8997a0;
+		font-size: 0.8em;
+	}
+
+	/* .call-to-action */
+	.call-to-action {
+		padding: 1.5em 20%;
+		background-color: #efefef;
+		border: 1px solid #e8e8e8;
+	}
+
+	/* .row */
+	.row {
+		overflow: hidden;
+		margin: 1.5em auto;
+	}
+
+	.row .col {
+		float: left;
+		width: 29.6%;
+		margin-right: 2em;
+		border: 2px solid #FFAAAA;
+	}
+
+	.row .col #box3: {
+		float: right;
+		margin-right: 0;
+	}
+
+	.row .col img .cangiua {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+

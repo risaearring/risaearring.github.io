@@ -1,0 +1,349 @@
+/ *! chuẩn hóa.css v8.0.1 | Giấy phép MIT | github.com/necolas/n normalize.css * /
+
+/ * Tài liệu
+   ================================================== ======================== * /
+
+/ **
+ * 1. Sửa chiều cao dòng trong tất cả các trình duyệt.
+ * 2. Ngăn chặn điều chỉnh kích thước phông chữ sau khi thay đổi hướng trong iOS.
+ * /
+
+html {
+  chiều cao dòng: 1,15; / * 1 * /
+  -webkit-text-size-điều chỉnh: 100%; / * 2 * /
+}
+
+/ * Phần
+   ================================================== ======================== * /
+
+/ **
+ * Xóa lề trong tất cả các trình duyệt.
+ * /
+
+thân hình {
+  lề: 0;
+}
+
+/ **
+ * Kết xuất phần tử `main` nhất quán trong IE.
+ * /
+
+chủ yếu {
+  hiển thị: khối;
+}
+
+/ **
+ * Sửa kích thước phông chữ và lề trên các phần tử `h1` trong` phần` và
+ * `bài viết 'bối cảnh trong Chrome, Firefox và Safari.
+ * /
+
+h1 {
+  cỡ chữ: 2em;
+  lề: 0,67em 0;
+}
+
+/ * Phân nhóm nội dung
+   ================================================== ======================== * /
+
+/ **
+ * 1. Thêm kích thước hộp chính xác trong Firefox.
+ * 2. Hiển thị tràn trong Edge và IE.
+ * /
+
+giờ {
+  kích thước hộp: hộp nội dung; / * 1 * /
+  chiều cao: 0; / * 1 * /
+  tràn: nhìn thấy được; / * 2 * /
+}
+
+/ **
+ * 1. Sửa lỗi kế thừa và chia tỷ lệ kích thước phông chữ trong tất cả các trình duyệt.
+ * 2. Sửa kích thước phông chữ `em` lẻ trong tất cả các trình duyệt.
+ * /
+
+trước {
+  font-họ: monospace, monospace; / * 1 * /
+  cỡ chữ: 1em; / * 2 * /
+}
+
+/ * Ngữ nghĩa cấp văn bản
+   ================================================== ======================== * /
+
+/ **
+ * Xóa nền màu xám trên các liên kết hoạt động trong IE 10.
+ * /
+
+một {
+  màu nền: trong suốt;
+}
+
+/ **
+ * 1. Xóa đường viền dưới cùng trong Chrome 57-
+ * 2. Thêm trang trí văn bản chính xác trong Chrome, Edge, IE, Opera và Safari.
+ * /
+
+abbr [tiêu đề] {
+  đáy-biên: không có; / * 1 * /
+  trang trí văn bản: gạch chân; / * 2 * /
+  trang trí văn bản: gạch chân chấm chấm; / * 2 * /
+}
+
+/ **
+ * Thêm trọng lượng phông chữ chính xác trong Chrome, Edge và Safari.
+ * /
+
+b,
+mạnh {
+  font-weight: đậm hơn;
+}
+
+/ **
+ * 1. Sửa lỗi kế thừa và chia tỷ lệ kích thước phông chữ trong tất cả các trình duyệt.
+ * 2. Sửa kích thước phông chữ `em` lẻ trong tất cả các trình duyệt.
+ * /
+
+mã,
+kbd,
+samp {
+  font-họ: monospace, monospace; / * 1 * /
+  cỡ chữ: 1em; / * 2 * /
+}
+
+/ **
+ * Thêm kích thước phông chữ chính xác trong tất cả các trình duyệt.
+ * /
+
+nhỏ {
+  cỡ chữ: 80%;
+}
+
+/ **
+ * Ngăn các phần tử `sub` và` sup` ảnh hưởng đến chiều cao của dòng trong
+ * tất cả các trình duyệt.
+ * /
+
+phụ
+hỗ trợ
+  cỡ chữ: 75%;
+  chiều cao dòng: 0;
+  vị trí: tương đối;
+  dọc-align: đường cơ sở;
+}
+
+phụ {
+  đáy: -0,25em;
+}
+
+hỗ trợ
+  đầu trang: -0,5em;
+}
+
+/ * Nội dung nhúng
+   ================================================== ======================== * /
+
+/ **
+ * Xóa đường viền trên hình ảnh bên trong các liên kết trong IE 10.
+ * /
+
+img {
+  kiểu viền: không có;
+}
+
+/* Các hình thức
+   ================================================== ======================== * /
+
+/ **
+ * 1. Thay đổi kiểu phông chữ trong tất cả các trình duyệt.
+ * 2. Xóa lề trong Firefox và Safari.
+ * /
+
+cái nút,
+đầu vào,
+nhóm
+lựa chọn,
+văn bản {
+  phông chữ-gia đình: kế thừa; / * 1 * /
+  cỡ chữ: 100%; / * 1 * /
+  chiều cao dòng: 1,15; / * 1 * /
+  lề: 0; / * 2 * /
+}
+
+/ **
+ * Hiển thị tràn trong IE.
+ * 1. Hiển thị tràn trong Edge.
+ * /
+
+cái nút,
+đầu vào {/ * 1 * /
+  tràn: nhìn thấy được;
+}
+
+/ **
+ * Loại bỏ sự kế thừa của chuyển đổi văn bản trong Edge, Firefox và IE.
+ * 1. Xóa tính kế thừa của biến đổi văn bản trong Firefox.
+ * /
+
+cái nút,
+chọn {/ * 1 * /
+  chuyển đổi văn bản: không có;
+}
+
+/ **
+ * Sửa lỗi không thể định kiểu các kiểu có thể nhấp trong iOS và Safari.
+ * /
+
+cái nút,
+[loại = "nút"],
+[loại = "đặt lại"],
+[loại = "gửi"] {
+  -webkit-ngoại hình: nút;
+}
+
+/ **
+ * Xóa đường viền bên trong và phần đệm trong Firefox.
+ * /
+
+nút :: - moz-tập trung-bên trong,
+[loại = "nút"] :: - moz-tập trung-bên trong,
+[type = "reset"] :: - moz-tập trung-bên trong,
+[type = "submit"] :: - moz-tập trung-bên trong {
+  kiểu viền: không có;
+  đệm: 0;
+}
+
+/ **
+ * Khôi phục các kiểu lấy nét không được đặt theo quy tắc trước đó.
+ * /
+
+nút: -moz-tập trung,
+[type = "button"]: - tập trung vào moz,
+[type = "reset"]: - tập trung vào moz,
+[type = "submit"]: - moz-tập trung {
+  phác thảo: Nút 1 chấm chấm;
+}
+
+/ **
+ * Sửa lỗi phần đệm trong Firefox.
+ * /
+
+lĩnh vực {
+  đệm: 0,35em 0,75em 0,625em;
+}
+
+/ **
+ * 1. Sửa lỗi gói văn bản trong Edge và IE.
+ * 2. Sửa lỗi kế thừa màu từ các phần tử `fieldset` trong IE.
+ * 3. Xóa phần đệm để nhà phát triển không bị phát hiện khi họ thoát ra
+ * Các phần tử `fieldset` trong tất cả các trình duyệt.
+ * /
+
+huyền thoại {
+  kích thước hộp: hộp viền; / * 1 * /
+  màu sắc: kế thừa; / * 2 * /
+  hiển thị: bảng; / * 1 * /
+  chiều rộng tối đa: 100%; / * 1 * /
+  đệm: 0; / * 3 * /
+  khoảng trắng: bình thường; / * 1 * /
+}
+
+/ **
+ * Thêm căn chỉnh dọc chính xác trong Chrome, Firefox và Opera.
+ * /
+
+phát triển {
+  dọc-align: đường cơ sở;
+}
+
+/ **
+ * Xóa thanh cuộn dọc mặc định trong IE 10+.
+ * /
+
+văn bản {
+  tràn: tự động;
+}
+
+/ **
+ * 1. Thêm kích thước hộp chính xác trong IE 10.
+ * 2. Gỡ bỏ phần đệm trong IE 10.
+ * /
+
+[loại = "hộp kiểm"],
+[loại = "radio"] {
+  kích thước hộp: hộp viền; / * 1 * /
+  đệm: 0; / * 2 * /
+}
+
+/ **
+ * Sửa kiểu con trỏ của các nút tăng và giảm trong Chrome.
+ * /
+
+[type = "number"] :: - nút webkit-bên trong-spin-nút,
+[type = "number"] :: - nút webkit-ngoài-spin-nút {
+  chiều cao: tự động;
+}
+
+/ **
+ * 1. Sửa lỗi xuất hiện kỳ ​​lạ trong Chrome và Safari.
+ * 2. Sửa kiểu phác thảo trong Safari.
+ * /
+
+[loại = "tìm kiếm"] {
+  -webkit-ngoại hình: trường văn bản; / * 1 * /
+  phác thảo-offset: -2px; / * 2 * /
+}
+
+/ **
+ * Xóa phần đệm bên trong trong Chrome và Safari trên macOS.
+ * /
+
+[type = "search"] :: - webkit-search-trang trí {
+  -webkit-ngoại hình: không có;
+}
+
+/ **
+ * 1. Sửa lỗi không thể định kiểu các kiểu có thể nhấp trong iOS và Safari.
+ * 2. Thay đổi thuộc tính phông chữ thành `inherit` trong Safari.
+ * /
+
+:: - nút webkit-file-upload-nút {
+  -webkit-ngoại hình: nút; / * 1 * /
+  phông chữ: kế thừa; / * 2 * /
+}
+
+/ * Tương tác
+   ================================================== ======================== * /
+
+/ *
+ * Thêm màn hình chính xác trong Edge, IE 10+ và Firefox.
+ * /
+
+chi tiết {
+  hiển thị: khối;
+}
+
+/ *
+ * Thêm hiển thị chính xác trong tất cả các trình duyệt.
+ * /
+
+tóm lược {
+  hiển thị: danh sách-mục;
+}
+
+/ * Linh tinh
+   ================================================== ======================== * /
+
+/ **
+ * Thêm hiển thị chính xác trong IE 10+.
+ * /
+
+bản mẫu {
+  không trưng bày;
+}
+
+/ **
+ * Thêm hiển thị chính xác trong IE 10.
+ * /
+
+[ẩn] {
+  không trưng bày;
+}
