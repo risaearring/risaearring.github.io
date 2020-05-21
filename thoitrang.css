@@ -51,7 +51,7 @@ a:hover, a:visited {
 #menu ul li {
 	color: black;
 	display: inline-table;
-	width: 200px;
+	width: 150px;
 	height: 40px;
 	line-height: 40px;
 	position: relative;
@@ -78,7 +78,7 @@ a:hover, a:visited {
 }
 
 #menu ul ul li a {
-	width: 200px;
+	width: 150px;
 	height: 40px;
 	text-align: left;
 }
@@ -97,7 +97,7 @@ a:hover, a:visited {
 		float: left;
 		width: 29.6%;
 		margin-right: 2em;
-		border: 2px solid #FFAAAA;
+		border: 2px solid white;
 		background: #FFAAAA;
 		color: black;
 	}
